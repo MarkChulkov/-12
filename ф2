@@ -1,0 +1,33 @@
+text
+ЗАДАНИЕ: Book Tracker на Python + Tkinter
+
+1. Что сделать:
+   - Форма с полями: Название, Автор, Жанр, Страницы
+   - Кнопка "Добавить книгу" → данные в таблицу
+   - Фильтрация: по жанру (текст) и по страницам (> N)
+   - Сохранение/загрузка в JSON
+   - Проверка: поля не пустые, страницы >0 (число)
+
+2. Ключевые элементы кода:
+   - from tkinter import * + ttk (таблица)
+   - json.dump/load для работы с JSON
+   - os.path.exists() проверка файла
+   - try/except + messagebox для ошибок
+
+3. Git команды (последовательность):
+   git init
+   git add .
+   git commit -m "comment"
+   git remote add origin URL
+   git push -u origin main
+
+4. Структура README:
+   - Имя автора
+   - Описание
+   - Как запустить (python book_tracker.py)
+   - Примеры (добавление, фильтр, проверка ошибок)
+
+5. Файлы проекта:
+   book_tracker.py  # программа
+   books.json       # данные (создаётся автоматически)
+   README.md        # инструкция
